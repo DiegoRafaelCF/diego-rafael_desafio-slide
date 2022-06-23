@@ -1,0 +1,79 @@
+.card {
+    width: 259px;
+    height: 416px;
+    padding: 16px;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card img {
+    width: 227px;
+    height: 224px;
+}
+
+.card h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0275em;
+    color: #19191D;
+}
+
+.card span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.018em;
+    color: #787885;
+}
+
+.card p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.018em;
+    color: #787885;
+    width: 227px;
+    height: 44px;
+    line-height: 22px;
+    overflow: auto;
+}
+
+.more-infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-infos button {
+    background: #FFFFFF;
+    border: 1px solid #9DC2FF;
+    border-radius: 4px;
+    height: 32px;
+    padding: 6px 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.018em;
+    color: #2264D1;
+}
+
+.more-infos span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.018em;
+    color: #2264D1;
+}

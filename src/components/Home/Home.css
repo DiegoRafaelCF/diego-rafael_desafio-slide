@@ -1,0 +1,14 @@
+.book-collections {
+    padding: 4% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+@media (max-width: 1384px) {
+    .book-collections {
+        justify-content: space-around;
+        gap: 16px;
+    }
+}

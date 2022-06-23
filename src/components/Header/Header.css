@@ -1,0 +1,59 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.header-content {
+    display: flex;
+    margin: 32px 10%;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    margin: 0 auto;
+}
+
+.link-header {
+    color: #000;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nav-header :hover {
+    font-weight: 700;
+}
+
+@media (max-width: 1031px) {
+    .nav-header {
+        align-items: flex-end;
+        margin: 0 0 0 auto;
+    }
+}
+
+@media (max-width: 750px) {
+    /* .nav-header {
+        display: none
+    } */
+    .nav-header {
+        margin: 15px 0px auto;
+        gap: 4vw;
+    }
+
+    .link-header {
+        font-size: 11px;
+    }
+
+    .header-content {
+        margin: 24px 10%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-bibbble {
+        width: 100px;
+    }
+}
